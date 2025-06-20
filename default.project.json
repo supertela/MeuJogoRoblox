@@ -2,6 +2,10 @@
   "name": "MeuJogoRoblox",
   "tree": {
     "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst",
+      "$className": "ReplicatedFirst"
+    },
     "ReplicatedStorage": {
       "$path": "src/ReplicatedStorage",
       "$className": "ReplicatedStorage"
@@ -10,12 +14,59 @@
       "$path": "src/ServerScriptService",
       "$className": "ServerScriptService"
     },
+    "ServerStorage": {
+      "$path": "src/ServerStorage",
+      "$className": "ServerStorage"
+    },
+    "StarterGui": {
+      "$path": "src/StarterGui",
+      "$className": "StarterGui"
+    },
+    "StarterPack": {
+      "$path": "src/StarterPack",
+      "$className": "StarterPack"
+    },
     "StarterPlayer": {
       "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts",
+        "$className": "StarterCharacterScripts"
+      },
       "StarterPlayerScripts": {
         "$path": "src/StarterPlayer/StarterPlayerScripts",
         "$className": "StarterPlayerScripts"
       }
+    },
+    "Teams": {
+      "$path": "src/Teams",
+      "$className": "Teams"
+    },
+    "SoundService": {
+      "$path": "src/SoundService",
+      "$className": "SoundService"
+    },
+    "Lighting": {
+      "$path": "src/Lighting",
+      "$className": "Lighting"
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "GameObjects": {
+        "$path": "src/Workspace/GameObjects",
+        "$className": "Folder"
+      }
+    },
+    "Chat": {
+      "$path": "src/Chat",
+      "$className": "Chat"
+    },
+    "LocalizationService": {
+      "$path": "src/LocalizationService",
+      "$className": "LocalizationService"
+    },
+    "TestService": {
+      "$path": "src/TestService",
+      "$className": "TestService"
     }
   }
 }
